@@ -1,6 +1,6 @@
 Package.describe({
   name: 'stubborncoder:bootstrap-material-datepicker',
-  version: '1.0.0',
+  version: '0.1.0',
   // Brief, one-line summary of the package.
   summary: 'Package wrapper for T00rk/bootstrap-material-datepicker',
   // URL to the Git repository containing the source code for this package.
@@ -14,9 +14,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.5');
 
   api.use('underscore');
-  api.use('momentjs:moment');
+  api.use('momentjs:moment@2.9.0');
   api.use('jquery');
-  api.use('fezvrasta:bootstrap-material-design');
+  api.use('fezvrasta:bootstrap-material-design@0.3.0');
 
   api.addFiles('lib/bootstrap-material-datepicker.css', 'client');
   api.addFiles('lib/bootstrap-material-datepicker.js', 'client');
