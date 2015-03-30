@@ -26,5 +26,5 @@ Package.onTest(function(api) {
   api.use('tinytest');
   api.use('stubborncoder:bootstrap-material-datepicker');
   api.addFiles('lib/bootstrap-material-datepicker.css', 'client');
-  api.addFiles('bootstrap-material-datepicker-tests.js', 'client');
+  api.addFiles('test/bootstrap-material-datepicker-tests.js', 'client');
 });
